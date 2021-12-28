@@ -19,6 +19,22 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/indexcss.css">
+        <meta property="og:image"content="img/shahreecoder.jpeg" />
+        <meta property="og:image:secure_url" content="img/shahreecoder.jpeg" />
+        <meta property="og:image:url" content="img/shahreecoder.jpeg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="800" />
+        <meta property="og:type" content="Developer" />
+        <meta property="og:site_name"content="portfolio.shahreecoder.com">
+        <meta property="og:title" content=" Portfolio | Shahreecoder | Software Developer" />
+        <meta property="og:description" content="Welcome to my portfolio. I am a Developer, working from past 5 years and created hundreds of websites for my clients round the globe." />
+
+        <meta name="twitter:card" content="Developer" />
+        <meta name="twitter:title" content="Saleem | Official Portfolio" />
+        <meta name="twitter:description" content="Welcome to my portfolio. I am a Developer, working from past 5 years and created hundreds of websites for my clients round the globe. " />
+        <meta name="twitter:image" 	content="img/shahreecoder.jpeg" />
+
+
     <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
