@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+    --maincolor:#4FDCC5;
+    --textcolor:#474747;
+}
+html {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+  }
+
+.navbar-brand{
+    font-family: 'Caveat', cursive;
+    font-size: 35px;
+    /* background-color: aquamarine; */
+    padding: 5px;
+    font-weight: 900;
+    color: #474747 !important;
+}
+.topnav{
+    padding-left: 300px;
+}
+.nav-link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #474747 !important;
+    
+}
+.nav-item {
+    padding: 10px;
+}
+.nav-link:hover{
+    color: #4FDCC5 !important;
+}
+.active{
+    /* color: #4FDCC5 !important; */
+    border-color: black;
+    border-width: 0 0 1px;
+    border-style:solid ;
+}
+.hello{
+    background-color:#4FDCC5 ;
+    font-family: 'Roboto', sans-serif;
+    width: 30%;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 30px 30px 30px 5px;
+    text-align: center;
+
+}
+.logoimg{
+    background-image: url("../img/heroimg.jpeg");
+    width: 300px;
+    height: 300px;
+    background-color: grey;
+    border-radius: 50%;
+    outline-style: outset;
+    outline-color:var(--maincolor);
+    outline-width: 15px;
+}
+.name h1{
+    font-family: 'Roboto', sans-serif;
+    color: var(--textcolor);
+    font-weight: 900;
+}
+.spec h2{
+    font-family: 'Roboto', sans-serif;
+    color: var(--maincolor);
+    font-weight: 600;
+}
+.social a{
+    padding:0px 8px;
+    color: var(--textcolor);
+    line-height: 0px;
+}
+.social a:hover{
+    color: var(--maincolor);
+    border-radius: 30%;
+    background-color: var(--textcolor);
+}
+.mainbtn a{
+    background-color: var(--textcolor) !important;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.mainbtn a i{
+    padding: 0px 5px;
+}
+.mainbtn a:hover{
+    background-color: var(--maincolor) !important;
+}
+.aboutmetext h3{
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    border-color: black;
+    border-width: 0 0 1px;
+    border-style:solid ;
+    width: fit-content;
+    color: var(--textcolor) !important;
+    
+}
+.aboutmetext p{
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--textcolor) !important;
+}
+.aboutmeskill a{
+    font-size: 16px;
+    font-weight: 600;
+    outline: solid 1px;
+    outline-color: var(--maincolor);
+    margin-bottom: 10px;
+    margin-left: 10px;
+    cursor: default;
+}
+.maintitle {
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    color: var(--textcolor) !important;
+}
+.card {
+    border-radius: 20px;
+    box-shadow: 3px 2px 19px -5px rgba(87,87,87,0.9);
+-webkit-box-shadow: 3px 2px 19px -5px rgba(87,87,87,0.9);
+-moz-box-shadow: 3px 2px 19px -5px rgba(87,87,87,0.9);
+}
+.card h3{
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: var(--textcolor) !important;
+}
+.card p{
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    /* text-align: justify; */
+    color: var(--textcolor) !important;
+}
+.skillsprogress label{
+    font-weight: 600;
+    color: var(--textcolor) !important;
+}
+.progress-bar{
+    background-color: var(--maincolor) !important;
+    font-weight: 500;
+}
+
+.price {
+    font-weight: 600;
+    color: var(--maincolor);
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+    .topnav{
+        padding-left: 20px;
+        background-color:#4FDCC5 ;
+
+    }
+    .nav-item{
+        padding-left: 10px;
+        align-items: center;
+        text-align: center;
+    }
+    .nav-link:hover{
+        color: white !important;
+    }
+    .active{
+        color: white !important;
+        /* border-width: 0 0 3px; */
+        /* border-style:solid ; */
+        border: none;
+    }
+    .hello{
+        width: 40%;
+    }
+    .mainbtn a{
+        
+        font-weight: 400;
+        color: white;
+        padding: 8px 15px;
+        margin: 10px;
+        border-radius: 20px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .topnav{
+        padding-left: 20px;
+        background-color:#4FDCC5 ;
+    }
+    .nav-item{
+        padding-left: 10px;
+    }
+    .nav-link:hover{
+        color: white !important;
+    }
+    .active{
+        color: white !important;
+        /* border-width: 0 0 3px; */
+        /* border-style:solid ; */
+        border: none;
+    }
+    .hello{
+        width: 40%;
+    }
+    .mainbtn a{
+        
+        font-weight: 400;
+        color: white;
+        padding: 8px 15px;
+        margin: 10px;
+        border-radius: 20px;
+    }
+  }
